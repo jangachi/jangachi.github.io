@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #202020; }
+
+.sky, .ocean {
+  min-height: 100px;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+
+.sky {
+  background-color: #40C0FF; }
+
+.horizon {
+  max-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  transform: translateY(-50%); }
+
+canvas {
+  display: block; }
+
+.main {
+  position: absolute;
+  left: 0;
+  top: 0; }
